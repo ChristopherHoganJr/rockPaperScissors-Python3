@@ -3,9 +3,9 @@ from paperArt import paperArt
 from scissorsArt import scissorsArt
 
 def animateAttacks(attack):
-    if attack == 1:
+    if attack == 0:
         print(rockArt)
-    elif attack == 2:
+    elif attack == 1:
         print(paperArt)
     else:
         print(scissorsArt)
